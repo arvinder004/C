@@ -10,9 +10,10 @@ int main(){
 	for(int i=0;i<n;i++){
 		scanf("%d",&arr[i]);
 	}
-	printf("your array is\n");
+	printf("your array is {");
 	for(int i=n-1;i>=0;i--){
-		printf("%d ",arr[i]);
+		printf(" %d ",arr[i]);
 	}
+	printf("}")
 	return 0;
 }
