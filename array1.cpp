@@ -1,4 +1,5 @@
-//printing an array
+///printing an array
+
 #include<stdio.h>
 int main(){
 
@@ -9,9 +10,10 @@ int main(){
 	for(int i=0;i<n;i++){
 		scanf("%d",&arr[i]);
 	}
-	printf("your array is\n");
+	printf("your array is {");
 	for(int i=0;i<n;i++){
-		printf("%d ",arr[i]);
+		printf(" %d ",arr[i]);
 	}
+	printf("}");
 	return 0;
 }
