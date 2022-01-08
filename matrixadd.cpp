@@ -6,7 +6,7 @@ int main(){
 	for(int i=0;i<2;i++){           //rows
 		for(int j=0;j<2;j++){             //coloumns
 			arr3[i][j]=arr1[i][j]+arr2[i][j];      //adding arr1 and arr2,storing value in arr3
-			printf("%d ",arr3[i][j]);
+			printf("%d ",arr3[i][j]);    //printing final matrix
 		}
 		printf("\n");
 	}
