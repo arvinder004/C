@@ -18,11 +18,11 @@ main(){
 				switch(b)
 				{
 				case 1:	
-					printf("ENTER AMOUNT TO WITHDRAW:\n");
+					printf("ENTER AMOUNT TO WITHDRAW:\n");  //asking amount to withdraw
 					scanf("%d",&c);
-					total_amount-=c;
+					total_amount-=c;             //finding balance amount
 					printf("AMOUNT WITHDRAWN\n");
-					printf("BALANCE AMOUNT:%d  \n",total_amount);
+					printf("BALANCE AMOUNT:%d  \n",total_amount);  
 					printf("THANKYOU FOR BANKING WITH US!\n");
 					break;
 				
@@ -32,7 +32,7 @@ main(){
 				}
 			
 		case 2:
-			printf("CURRENT ACCOUNT BALANCE IS \n",total_amount);
+			printf("CURRENT ACCOUNT BALANCE IS \n",total_amount);   //displaying current account balance
 						break;
 			
 		case 3:
