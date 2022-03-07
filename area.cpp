@@ -1,4 +1,4 @@
-
+//area of rectangle
 
 #include<stdio.h>
 int area(int x,int y);
